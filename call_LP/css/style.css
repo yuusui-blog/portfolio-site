@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html{
+  font-size:100%;
+}
+body{
+  font-family:"Yu Gothic Medium","游ゴシック Medium",Yugothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height:1.7;
+  color:black;
+}
+*,*::before,*::after{
+  box-sizing:border-box;
+}
+a:link,a:visited,a:hover,a:active{
+  text-decoration:none;
+}
+ img{
+  max-width:100%;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.navbar-toggler{
+color:white;
+border-color:white;
+}
+
+.main-menu{
+background-color:#343a40;
+}
+
+.link-mozi,
+.logo-mozi{
+  color:white;
+}
+
+.logo-in-menu{
+  display:none;
+}
+/* top画像 */
+.top-sentence{
+  padding-top:100px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size:2.8rem;
+  margin-right:-60px;
+  line-height:1.3;
+}
+/* ビーコールが選ばれる理由 */
+.orange-bg{
+background-color:#f93;
+}
+.bg{
+   background-color:#f93;
+}
+.bg-last{
+  background-color:#f93;
+  padding-top:45px;
+  padding-bottom:90px;
+}
+.bg h2{
+  color:white;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size:1.6rem;
+}
+.bg h3{
+  font-size:1.25rem;
+  color:white;
+}
+.mybtn{
+  color:#f93;
+  font-size:1rem;
+  background-color:white;
+  padding:7px;
+  border-radius:5px;
+}
+.mybtn:hover{
+  background-color:red;
+}
+.bg span{
+  font-weight:bold;
+}
+
+/* ビーコールのサービス */
+.service h2{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size:1.6rem;
+}
+.service p{
+font-size:0.9rem;
+}
+.zoom img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+.zoom img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.my-btn{
+  background-color:#ff4500;
+  border:none;
+  height:62px;
+  margin-top:10px;
+}
+.my-btn:hover{
+  background-color:white;
+  transition:0.4s;
+  color:#f93;
+}
+
+.orange-my-bg{
+background-color:#f93;
+}
+
+/*contract  */
+.gray-bg{
+  background-color:#eee;
+}
+.gray-bg li{
+  list-style:none;
+  font-size:0.8rem;
+}
+.gray-bg ul{
+  padding-left:5px;
+}
+
+.adress{
+  font-size:0.8rem;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+.adress-bottom{
+  font-size:0.8rem;
+  border-top:1px solid black;
+}
+.yazirusi{
+  position:absolute;
+  top:-15px;
+  left:42px;
+  font-size: 0.9rem;
+}
+.yazirusi-wrap{
+  position: relative;
+}
+
+
+
+/* footer */
+.deep-gray-bg{
+  background-color:#a9a9a9;
+}
+.footer{
+  color:white;
+  text-align:center;
+}
+
+@media(max-width:576px){
+  .main-menu{
+  background-color:white;
+  }
+  .logo-in-menu{
+    display:inline-block;
+  }
+.my-small-bg{
+  background-color:white !important;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(0,0,0);
+}
+.link-mozi{
+  color:black;
+}
+.header{
+  box-shadow: 0 3px 3px -3px #000000; /* 0 (5px + 3px) 3px (-3px) #000000 */
+}
+
+/* top画面 */
+.top-sentence{
+  padding-top:50px;
+  font-size:1.75rem;
+  margin-right:0px;
+}
+.bg-image{
+  background-image: url(../images/top-small.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+}
+
+.bg-mask{
+  height: 100%;
+  width:103%;
+  background: rgba(255,255,255,0.7);
+}
+.bg-mask p{
+  font-size:0.8rem;
+}
+
+
+
+}
+
+ @media(min-width:578px){
+
+   /* top戻る */
+   .yazirusi{
+     position:absolute;
+     top:-15px;
+     left:42px;
+     font-size: 0.9rem;
+   }
+   .yazirusi-wrap{
+     position:absolute;
+     bottom:10px;
+     right:150px;
+
+   }
+   .return{
+     position:relative;
+   }
+
+ }
+
+}

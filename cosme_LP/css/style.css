@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+
+
+/* 共通部分 */
+html{
+  font-size:100%;
+}
+body{
+  font-family:"Yu Gothic Medium","游ゴシック Medium",Yugothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height:1.7;
+  color:#432;
+}
+*,*::before,*::after{
+  box-sizing:border-box;
+}
+a:link,a:visited,a:hover,a:active{
+  text-decoration:none;
+}
+img{
+  max-width:100%;
+}
+
+.row-extend{
+
+}
+
+.link-font{
+  font-size:2rem;
+  color:#696969;
+}
+
+.menu-wrap{
+  margin-top:-20px;
+}
+.nav-link{
+  letter-spacing: -0.1rem;
+  color:#696969;
+  line-height:0.9rem;
+}
+.menu-sub-wrap{
+margin-top:15px;
+border-top:1px solid #dcdcdc;
+border-bottom:1px solid #dcdcdc;
+margin-right:15px;
+margin-left:15px;
+}
+.nav-item{
+  padding-top:25px;
+  padding-right:17px;
+  padding-left:17px;
+  letter-spacing:-0.1rem;
+}
+.nav-item a{
+  color:#696969;
+}
+
+/* アコーディオン */
+
+.midasi{
+  font-family: 'Noto Sans JP', ;
+  font-size:1rem;
+  font-weight:bold;
+  letter-spacing: -0.1rem;
+  color:white;
+  padding-top:7px;
+}
+.row-wrapper{
+  background-color:#F8B091;
+  margin-right:15px;
+  margin-left:15px;
+}
+.col-sub-wrapper{
+  height:42px;
+  margin-top:6px;
+  margin-bottom:6px;
+  margin-right:4px;
+  margin-left:4px;
+  border:1px white dashed;
+}
+
+.explain{
+  background-color:white;
+  padding-right:5px;
+  padding-left:5px;
+  border:1px solid #F8B091;
+  font-size:0.9rem;
+  color:#696969;
+}
+
+/* ボタン */
+.plus{
+  color:#F8B091;
+  font-weight:lighter;
+  font-size:1rem;
+  display:inline-block;
+  text-align:right;
+  display:block;
+  border:1px solid white;
+  border-radius:50%;
+  margin:5px 7px;
+  padding:1px;
+  background-color: white;
+}
+.plus:hover{
+  cursor:pointer;
+  color:#F8B091;
+}
+.main-topic{
+  font-weight: bold;
+  width:70%;
+  text-align: center;
+  font-size:1.5rem;
+  color:#696969;
+  font-family: 'Noto Sans JP', ;
+  line-height: 1.4;
+}
+.main-explain{
+  font-size:0.95rem;
+  text-align:center;
+  color:#696969;
+}
+.main-explain-sm{
+  font-size:0.7rem;
+  text-align:center;
+  color:#696969;
+}
+.mainbg{
+  width:100%;
+}
+.sub-topic{
+  font-weight: bold;
+  width:85%;
+  text-align: center;
+  font-size:1.2rem;
+  color:#696969;
+  font-family: 'Noto Sans JP', ;
+  line-height:1.4;
+}
+.sub-explain{
+  font-size:0.95rem;
+  text-align:center;
+  color:#696969;
+}
+.btn-span:hover{
+  color:white;
+}
+.btn-span{
+  color:white;
+}
+.btn-extend{
+  display:block;
+  width:50%;
+}
+.waku{
+  border:10px  solid  #e6e6fa;
+  padding-right:0px;
+  padding-left:0px;
+}
+
+/* 1~10の特徴 */
+  .big-waku{
+    background-color:#e6e6fa;
+  }
+  .sub-topic-2nd{
+    font-weight: bold;
+    width:80%;
+    text-align: center;
+    font-size:1.2rem;
+    color:#696969;
+    font-family: 'Noto Sans JP', ;
+    line-height:1.4;
+  }
+.item{
+  background-color:white;
+  position:relative;
+
+}
+.item .sub-explain{
+  width:50%;
+}
+.basebox{
+
+}
+.back-number{
+  font-family: 'Arimo', ;
+  font-size:9rem;
+  font-weight:1000;
+  color:rgba(255, 102, 255, 0.20);
+  top:-90px;
+  left:-20px;
+}
+.item .sub-explain{
+  font-size:0.95rem;
+  text-align:left;
+  color:#696969;
+}
+.sub-detail{
+  font-size:0.7rem;
+  text-align:left;
+  color:#696969;
+}
+
+/*  肌年齢について */
+.sub-topic-3rd{
+  font-weight: bold;
+  width:80%;
+  text-align: center;
+  font-size:1.4rem;
+  color:#696969;
+  font-family: 'Noto Sans JP', ;
+}
+.hadaage p{
+  line-height:1.25;
+  margin-top:20px;
+}
+.big-waku-extend{
+  background-color:#e6e6fa;
+  margin-left: -35px;
+  margin-right:-35px;
+}
+
+.contract a{
+color:#333631;
+font-size: 1.7rem;
+}
+.contract p{
+  text-align: left;
+  font-size:0.85rem;
+  color:#696969;
+  font-family: 'Noto Sans JP', ;
+  line-height:1.2;
+}
+.btn-dark-extend{
+  background-color:#F8B091;
+}
+.btn-dark-extend .tel{
+  color:white;
+  font-size:0.9rem;
+}
+.contract button{
+  height:70px;
+}
+.contract button:hover{
+  background-color: #202020;
+  transition:0.6s;
+}
+.item-menu ul{
+   list-style: none;
+   padding-left:0px;
+}
+.item-menu .item-form{
+margin-top:-2px;
+}
+
+.item-form a{
+  color:#696969;
+  font-size:0.8rem;
+}
+.sns-box .fab{
+  font-size:2.4rem;
+}
+.sns-box .fa-facebook-square{
+  color:#00008b;
+}
+.sns-box .fa-instagram-square{
+color:#202020;
+}
+.copyright{
+  font-size:0.7rem;
+  margin-bottom:-3px;
+  color:#696969;
+}
+.footer-link .link{
+  margin-right:20px;
+  font-size:0.8rem;
+  color:#696969;
+}
+
+
+ @media(min-width:992px){
+.row-extend{
+  padding-right:30px;
+  padding-left:30px;
+}
+.big-menu{
+padding-left:-30px;
+}
+.logo-img{
+  padding-right:-10px;
+}
+
+.link-font{
+  font-size:0.9rem;
+}
+.nav-item{
+  padding-left:25px;
+}
+/* アコーディオン */
+.col-sub-wrapper{
+  padding-right:-30px;
+  padding-left:-30px;
+}
+.waku{
+  border:20px solid #e6e6fa;
+}
+.sub-topic{
+  font-weight: bold;
+  font-size:1.4rem;
+  color:#696969;
+  font-family: 'Noto Sans JP', ;
+}
+.sub-explain{
+  width: 85%;
+  font-size:0.95rem;
+  text-align:center;
+  color:#696969;
+}
+
+/* 1~10の特徴 */
+.item .sub-explain{
+  height:130px;
+}
+.item{
+  margin-right:70px;
+  margin-left:70px;
+}
+.sub-topic-3rd{
+  font-size:2.3rem;
+}
+/* contract */
+.item-menu{
+  margin-left:30px;
+}
+.sns-box{
+  margin-left:30px;
+}
+.footer-link,
+.copyright{
+  margin-left:30px;
+}
+.contract .tel{
+  font-size:1rem;
+}
+
+}

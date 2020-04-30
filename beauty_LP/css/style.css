@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html{
+  font-size:100%;
+}
+body{
+  font-family:"Yu Gothic Medium","游ゴシック Medium",Yugothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height:1.7;
+  color:#432;
+}
+*,*::before,*::after{
+  box-sizing:border-box;
+}
+a:link,a:visited,a:hover,a:active{
+  text-decoration:none;
+}
+img{
+  max-width:100%;
+}
+
+/* 全体の外枠 */
+
+.container-extend{
+padding-left:5px;
+padding-right: 5px;
+}
+
+
+/* topメッセージ */
+.top-message{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size:1rem;
+  text-align:center;
+  border-top:3px solid;
+  border-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  border-image-slice: 1;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.bottom-message{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size:1rem;
+  text-align:center;
+  border-top:3px solid;
+  border-image: linear-gradient(to left, #00dbde 0%, #fc00ff 100%);
+  border-image-slice: 1;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.line-height{
+  line-height:;
+}
+bold{
+  font-weight:bold;
+}
+
+/* 会社の説明 */
+/* .btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+a{
+    text-decoration : none;
+    display : block;
+    color : #fff;
+    border-radius: 4px;
+    background-color: rgb(255, 164, 0);
+    box-shadow: 0px 4px 0 rgba(0, 0, 0, .7);
+    padding : 8px;
+    transition: 0.2s all ease 0s;
+}
+
+a:hover{
+    background-color: #FC6E51;
+    box-shadow: none;
+    transform: translate3d(0, 3px, 0);
+}
+
+*/
+.btn-primary-extend{
+  height:65px;
+  background-color: #ffd700;
+  color:#FFF;
+  font-weight:bold;
+  text-decoration : none;
+  box-shadow: 0px 4px 0 #b8860b;
+  padding : 8px;
+  transition: 0.2s all ease 0s;
+  border-color:gold;
+  padding-top:20px;
+  margin-right:10px;
+  margin-left:10px;
+}
+.btn-primary-extend:hover{
+    background-color: #b8860b;
+    box-shadow: none;
+    transform: translate3d(0, 3px, 0);
+    border-color:#b8860b;
+}
+
+.explain h3{
+font-family: 'M PLUS 1p', sans-serif;
+font-weight:bold;
+text-align:center;
+font-size:1.7rem;
+}
+
+.explain p{
+  font-size:1.2rem;
+  line-height:1.5;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+
+.font-blue{
+  color:#00BFFF;
+}
+.font-red{
+  color:#FF3300;
+}
+
+/* followers */
+.follower{
+  width:290px;
+  height:290px;
+  background-color:#FF00FF;
+  border:1px solid:#FF00FF;
+  border-radius:50%;
+  color:white;
+  padding-top:80px;
+  padding-left:20px;
+}
+.follower .total{
+  font-size:1.5rem;
+  font-weight:bold;
+  line-height: 0.8;
+}
+.follower-count{
+  font-size:3rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+.follower .over{
+  font-size:1.5rem;
+  font-weight:bold;
+  line-height: 0.8;
+}
+/* インスタPR */
+.pink{
+  color:#FF00FF;
+  font-size:1rem;
+}
+.PR p{
+  font-size:1rem;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.item{
+  margin-left:-43px;
+}
+.sankaku{
+
+}
+.sankaku:before{
+     content:"";
+     display: inline-block;
+     width: 0;
+     height: 0;
+     border-top: solid 8px #000033;
+     border-right: solid 8px transparent;
+     border-bottom: solid 8px transparent;
+     border-left: solid 8px transparent;
+     margin-top:-5px;
+     position:relative;
+     top:6px;
+     left:-3px;
+}
+.sankaku span{
+  font-weight:bold;
+  color: #000033;
+}
+
+.PR{
+  margin-top:10px;
+}
+.PR ul{
+  padding-left:60px;
+}
+.PR img{
+  margin-top:-10px;
+}
+
+.item-list{
+  list-style-type: none;
+}
+.item-list:before{
+  content:"";
+  width:10px;
+  height:10px;
+  background-color: #CC9900	;
+  border:1px solid #CC9900	;
+  border-radius:50%;
+  display:inline-block;
+  margin-right:5px;
+}
+
+/* logo */
+.logo img{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+footer{
+  background-color:black;
+}
+.copyright,
+footer .home,
+footer .contract{
+  color:#b3b3b3;
+  font-size:0.8rem;
+}
+.copyright{
+
+}
+
+
+.sankaku-right:before{
+     content:"";
+     display: inline-block;
+     width: 0;
+     height: 0;
+     border-top: solid 4px transparent;
+     border-right: solid 4px transparent;
+     border-bottom: solid 4px transparent;
+     border-left: solid 4px #ff8c00;
+     margin-top:0px;
+     position:relative;
+     top:0px;
+     left:1px;
+}
+
+
+
+
+
+
+@media(min-width:576px){
+.sankaku-right::before{
+  display:none;
+}
+footer .nav{
+  margin-left:20px;
+}
+.nav .tate-solid{
+color:white;
+margin-left:10px;
+font-size:13px;
+
+}
+
+}
+
+
+
+@media(max-width:576px){
+footer .nav{
+  margin-left:20px;
+}
+.nav .tate-solid{
+  display:none;
+}
+}
+
+
+@media(min-width:992px){
+footer .nav{
+  margin-left:150px;
+}
+
+}
